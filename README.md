@@ -5,7 +5,7 @@
 * TypeScript
 * Next.js
 * GraphQL
-* Jest
+* Jest + React Testing Library
 * Tailwind CSS
 
 ### Installation steps
