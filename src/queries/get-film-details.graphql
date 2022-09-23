@@ -1,0 +1,27 @@
+query getFilmDetails {
+    allFilms{
+        films{
+            id
+            title
+            releaseDate
+            episodeID
+            director
+            producers
+            characterConnection {
+                characters{
+                    id
+                    name
+                    birthYear
+                    eyeColor
+                    gender
+                    height
+                    skinColor
+                    mass
+                    homeworld {
+                        name
+                    }
+                }
+            }
+        }
+    }
+}

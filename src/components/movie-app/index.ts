@@ -1,0 +1,1 @@
+export { MovieApp } from './MovieApp';
